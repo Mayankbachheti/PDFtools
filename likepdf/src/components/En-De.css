@@ -1,0 +1,92 @@
+.decrypt-pdf-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+  background-color: #212529;
+  color: #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  height: 70vh;
+}
+
+.decrypt-pdf-container h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.decrypt-pdf-container p {
+  font-size: 1.2rem;
+  color: #B0BEC5;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.decrypt-pdf-container form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.decrypt-pdf-container input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #333;
+  color: white;
+  width: 100%;
+  max-width: 300px;
+}
+
+.decrypt-pdf-container input:disabled {
+  background-color: #555;
+}
+
+.decrypt-pdf-container button {
+  margin-top: 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+  max-width: 300px;
+}
+
+.decrypt-pdf-container button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.decrypt-pdf-container button:hover {
+  background-color: #218838;
+}
+
+.decrypt-pdf-container p {
+  font-size: 1.2rem;
+  color: #B0BEC5;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .decrypt-pdf-container {
+      padding: 20px;
+  }
+
+  .decrypt-pdf-container h1 {
+      font-size: 2rem;
+  }
+
+  .decrypt-pdf-container input,
+  .decrypt-pdf-container button {
+      max-width: 100%;
+      width: 90%;
+  }
+}

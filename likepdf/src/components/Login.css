@@ -1,0 +1,100 @@
+.d-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn-outline-light {
+  color: #ffffff;
+  border-color: #ffffff;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.btn-outline-light:hover {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.modal-content {
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 500px;
+  margin: auto;
+  border: none;
+}
+
+.modal-header {
+  background-color: #333333;
+  border-bottom: 1px solid #444444;
+  color: #e0e0e0;
+}
+
+.modal-header .close {
+  color: #e0e0e0;
+  opacity: 1;
+}
+
+.modal-body {
+  background-color: #333333;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form-floating {
+  margin-bottom: 20px;
+}
+
+.form-floating input {
+  background-color: #444444;
+  color: #e0e0e0;
+  border: 1px solid #444444;
+  border-radius: 5px;
+  padding: 12px;
+  width: 100%;
+  transition: border-color 0.3s ease;
+}
+
+.form-floating input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.25rem rgba(38, 143, 255, 0.5);
+}
+
+.form-floating label {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.form-check-label {
+  color: #aaa;
+}
+
+.btn-primary {
+  background-color: #444444;
+  border-color: #444444;
+  border-radius: 5px;
+  padding: 12px 20px;
+  width: 100%;
+  font-size: 16px;
+  color: #e0e0e0;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #051d2fbb;
+  border-color: #007bff;
+}
+
+.h3 {
+  color: #e0e0e0;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}

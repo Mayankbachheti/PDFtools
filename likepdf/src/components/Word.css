@@ -1,0 +1,79 @@
+.cont {
+  margin: 5px;
+}
+
+.converter-container {
+  background-color: #212529;
+  color: #e0e0e0;
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  text-align: center;
+  height: 70vh;
+  align-content: center;
+}
+
+.converter-container h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.converter-container p {
+  font-size: 1.2rem;
+  color: #B0BEC5;
+  margin-bottom: 20px;
+}
+
+.converter-container input[type="file"] {
+  background-color: #495057;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.converter-container input[type="file"]:hover {
+  background-color: #343a40;
+}
+
+.converter-container button {
+  background-color: #495057;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.converter-container button:hover {
+  background-color: #343a40;
+  transform: scale(1.05);
+}
+
+.converter-container p.error-message {
+  color: red;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .converter-container {
+      padding: 20px;
+  }
+
+  .converter-container input[type="file"] {
+      width: 100%;
+  }
+
+  .converter-container button {
+      width: 100%;
+  }
+}
